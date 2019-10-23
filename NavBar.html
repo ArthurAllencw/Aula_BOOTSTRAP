@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<style>
+    .cor{
+        background-color: #3b3e43;
+    }
+    .colorGRU{
+        color: white;
+    }
+    .colorAirport{
+        color: #bfd730;
+    }
+    .nomes:link{
+        color: white;
+    }
+    .nomes:visited{
+        color: white;
+    }
+    .nomes:hover{
+        color: white;
+    }
+    .nomes:active{
+        color: white;
+    }
+    .btn-outline-nomes{
+        color: #bfd730;
+        border-color: #bfd730;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg cor">
+            <a class="navbar-brand" href="NavBar.html"><span class="colorGRU">GRU</span><span class="colorAirport">AIRPORT</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link nomes" href="#">VOOS<span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nomes" href="#">COMO CHEGAR/SAIR</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nomes nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Partidas</a>
+                    <a class="dropdown-item" href="#">Chegadas</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Todos Voos</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nomes" href="#" tabindex="-1" aria-disabled="true">DESCUBRA GRU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nomes" href="#" tabindex="-1" aria-disabled="true">FALE CONOSCO</a>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar no GRU Aiport" aria-label="Pesquisar">
+                <button class="btn btn-outline-nomes my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
+    </nav>
+    
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
